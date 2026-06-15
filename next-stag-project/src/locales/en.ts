@@ -13,6 +13,8 @@ export default {
   hero: {
     title: 'NextStage Technology Solutions',
     subtitle: 'Guaranteed Computer & Electronic Device Repairs',
+    contactButton: 'Contact Us',
+    servicesButton: 'Our Services',
     cta: 'Our Services',
     secondary: 'Contact Us',
     feature1Title: 'Fast Service',
@@ -68,6 +70,7 @@ export default {
   gallery: {
     title: 'Our Space',
     subtitle: 'See Our Facilities',
+    viewLarger: 'View Larger Photo',
   },
   
   // Testimonials Section
@@ -98,7 +101,13 @@ export default {
     formSubmit: 'Send Message',
     success: 'Message sent successfully!',
     error: 'There was an error sending your message. Please try again.',
+    getInTouch: 'Get in Touch',
+    contactInfo: 'Contact Information',
+    viewOnMap: 'View on map',
+    callUs: 'Call us',
+    emailUs: 'Email us',
   },
+  
   
   // Footer
   footer: {

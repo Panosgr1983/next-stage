@@ -54,21 +54,21 @@ const Contact = () => {
       title: t('contact.address'),
       details: 'Προφήτη Ηλία 5, Γαλάτσι 111 47',
       link: 'https://maps.google.com/?q=Προφήτη+Ηλία+5,+Γαλάτσι',
-      linkText: 'View on map'
+      linkText: t('contact.viewOnMap')
     },
     {
       icon: <Phone className="w-6 h-6 text-[#6ab04c]" />,
       title: t('contact.phone'),
       details: '210 21 16 016',
       link: 'tel:2102116016',
-      linkText: 'Call us'
+      linkText: t('contact.callUs')
     },
     {
       icon: <Mail className="w-6 h-6 text-[#6ab04c]" />,
       title: t('contact.email'),
       details: 'nextstagegalatsi@gmail.com',
       link: 'mailto:nextstagegalatsi@gmail.com',
-      linkText: 'Email us'
+      linkText: t('contact.emailUs')
     },
     {
       icon: <Clock className="w-6 h-6 text-[#6ab04c]" />,
